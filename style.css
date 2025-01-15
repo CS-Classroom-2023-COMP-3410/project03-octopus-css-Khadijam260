@@ -1,0 +1,158 @@
+
+/* I used the following tutorials to help with certain CSS styling */
+
+/* 
+https://www.w3schools.com/css/css_form.asp
+https://www.w3schools.com/css/css3_shadows.asp
+https://www.w3schools.com/css/css_table.asp
+https://www.w3schools.com/css/css3_gradients.asp
+ */
+
+
+ /* sets background color of the whole page */
+#outer-container {
+
+    background-color: rgb(203, 235, 255);
+}
+
+/* adds a background to the heading and sets the text color to be white */
+#header {
+    background-image: linear-gradient(to right, rgb(16, 125, 179), rgb(39, 150, 187));
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* added a shadow and centered the title to the middle */
+#header-title {
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+/* added a shadow and made the text italic */
+#header-text {
+    font-style: italic;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* added white background to main content and updated the font */
+#main-content{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 15px;
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* added a class to update color and heading fonts */
+.main-content-heading{
+    color:rgb(27, 123, 144);
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* changed the background color and bolded the text */
+.important {
+    background-color: rgb(105, 203, 203);
+    font-weight: bold;
+}
+
+/* set background color and added padding */
+#quiz-section {
+    background-color:rgb(127, 223, 240);
+    border-radius: 10px;
+    padding:20px;
+}
+
+/* updated the position so the form could be on the left */
+#quiz-form {
+    position: absolute;
+    right: -120px;
+    bottom: 20px;
+
+}
+
+/* adjusted the position of the image so it could be below the title */
+#octo-image {
+
+    position: relative;
+    top: 50px;
+    left: 15px;
+    /* added a border and made the image smaller */
+    border: 3px solid rebeccapurple;
+    width: 7%; 
+
+}
+
+/* adjusted the position of the text so it could be above the image */
+#octo-text {
+
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(16, 125, 179);
+    bottom: 80px;
+    
+}
+
+/* made input for the form wider */
+input {
+    width: 60%;
+}
+
+/* changed the form button color and size */
+input[type=button], input[type=submit] {
+    background-color: rgb(1, 68, 101);
+    border: none;
+    width: 25%;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+  /* changed text volor */
+#species-title {
+    color:rgb(27, 123, 144);
+}
+
+/* got rid of the bother and adjusted the size and text-alignment of the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    
+}
+
+/* set the heading row of the table to be gray and changed text color */
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+/* added padding to the content of the table */
+td {
+    padding: 5px;
+}
+
+/* this allows it to have the striped styling with each odd cell being white */
+tr:nth-child(odd) {background-color: white;}
+
+/* added a background color and added approapriate padding*/
+#footer {
+    background-color:rgb(16, 125, 179);
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 0;
+    margin-top: 16px;
+    text-align: center
+    
+}
+
+/* changes the colors of the linked content */
+a {
+    color:rgb(105, 203, 203)
+}
