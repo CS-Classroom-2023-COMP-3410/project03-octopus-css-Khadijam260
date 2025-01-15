@@ -1,17 +1,5 @@
-
-/* I used the following tutorials to help with certain CSS styling */
-
-/* 
-https://www.w3schools.com/css/css_form.asp
-https://www.w3schools.com/css/css3_shadows.asp
-https://www.w3schools.com/css/css_table.asp
-https://www.w3schools.com/css/css3_gradients.asp
- */
-
-
  /* sets background color of the whole page */
 #outer-container {
-
     background-color: rgb(203, 235, 255);
 }
 
